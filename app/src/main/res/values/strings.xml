@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="Q1">What type of weapon is \"falchion\"? "</string>
+    <string name="A1_1">Blade</string>
+    <string name="A1_2">Bow</string>
+    <string name="A1_3">Sword</string>
+    <string name="A1_4">Cannon</string>
+
+    <string name="Q2">What is the seventh planet from the sun?</string>
+    <string name="A2_1">Mercur</string>
+    <string name="A2_2">Pluton</string>
+    <string name="A2_3">Saturn</string>
+    <string name="A2_4">Uranus</string>
+
+    <string name="Q3">Which British cities have underground rail systems? Select all that applies.</string>
+    <string name="A3_1">Liverpool</string>
+    <string name="A3_2">Sheffield</string>
+    <string name="A3_3">Leeds</string>
+    <string name="A3_4">Glasgow</string>
+
+    <string name="Q4">What is the painting \"La Gioconda\" more usually known as?</string>
+    <string name="A4">Write your answer here</string>
+    <string name="Submit">Submit</string>
+</resources>

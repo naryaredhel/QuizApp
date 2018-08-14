@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q1"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/A1_1"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/A1_2"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radioSword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/A1_3"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/A1_4"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q2"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/A2_1"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/A2_2"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/A2_3"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radioUranus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/A2_4"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q3"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/cbLiverpool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A3_1"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/cbSheffield"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A3_2"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/cbLeeds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A3_3"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/cbGlasgow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A3_4"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q4"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/A4"
+            android:textSize="14sp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Submit"
+            android:onClick="SubmitButton"/>
+    </LinearLayout>
+</ScrollView>
